@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import ReactDOM from "react-dom";
 
 function App() {
   return (
@@ -21,5 +22,6 @@ function App() {
     </div>
   );
 }
+// ReactDOM.render(App(), document.getElementById("react-banner"));
 
 export default App;
