@@ -5,9 +5,9 @@ export default function MainContent() {
         <div>
             <h1>Reasons I'm excited to learn React</h1>
             <ul>
-                <li>React is a popular library or front-end "framework".</li>
-                <li>Knowing React will broaden my skills as a developer and make me more marketable.</li>
-                <li>React is neat.</li>
+                <li>React is a popular library or front-end "framework"</li>
+                <li>Knowing React will broaden my skills as a developer and make me more marketable</li>
+                <li>React is neat</li>
             </ul>
             <h1>Fun facts about React</h1>
             <ul>

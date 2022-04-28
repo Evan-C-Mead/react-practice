@@ -1,19 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Header from "./Header";
-import MainContent from "./MainContent";
-import Footer from "./Footer";
+import './css/index.css';
+import Header from "./components/Header";
+import MainContent from "./components/MainContent";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
 
 // This is a custom component
-function ReactInfo() {
+
+// function ReactInfo() {
+//     return (
+//         <div className={"App-info"}>
+//             <Header/>
+//             <MainContent/>
+//             <Footer/>
+//         </div>
+//     )
+// }
+//
+// ReactDOM.render(<ReactInfo/>, document.getElementById("root"));
+
+function ReactApp() {
     return (
-        <div className={"App-info"}>
-            <Header/>
-            <MainContent/>
-            <Footer/>
+        <div>
+            <Navbar/>
+            <Main/>
         </div>
     )
 }
 
-ReactDOM.render(<ReactInfo/>, document.getElementById("root"));
+ReactDOM.render(<ReactApp/>, document.getElementById("react-root"));
+
