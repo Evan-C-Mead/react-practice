@@ -15,6 +15,7 @@ code {
 html, body {
     margin: 0;
     /*padding: 10px;*/
+    background-color: #282D35;
 }
 
 @keyframes App-logo-spin {
@@ -26,11 +27,61 @@ html, body {
     }
 }
 
-.nav {
+main {
+    padding: 57px 27px;
+    color: white;
+    background-image: url("../images/logo.svg");
+    background-repeat: no-repeat;
+}
+
+.main--title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.main--facts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main--facts > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+.navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+.navbar > h3, .navbar > h4 {
+    margin: 0;
+}
+
+.navbar > h3 {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.navbar > h4 {
+    color: #DEEBF8;
+    font-weight: 600;
+}
+
+.navbar > img {
+    height: 30px;
+    margin-right: 7px;
 }
 
 .nav-logo {

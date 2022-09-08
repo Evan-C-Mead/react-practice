@@ -1,4 +1,5 @@
 import React from 'react';
+// import ReactDOM from 'react-dom/client';
 import ReactDOM from 'react-dom';
 import './css/index.css';
 import Header from "./components/Header";
@@ -31,4 +32,4 @@ function ReactApp() {
 }
 
 ReactDOM.render(<ReactApp/>, document.getElementById("react-root"));
-
+// ReactDOM.createRoot(document.getElementById("react-root")).render(<ReactApp/>)
